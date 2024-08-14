@@ -108,7 +108,66 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="book-a-table"></section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">Name &#42;</label>
+              <input
+                id="name-input"
+                type="text"
+                class="form__input"
+                placeholder="Name Surname"
+                required
+              />
+              <label for="num-guests-input" class="form__label"
+                >Number of guests &#42;</label
+              >
+              <input
+                id="num-guests-input"
+                type="number"
+                class="form__input"
+                min="1"
+                max="8"
+                placeholder="1-8"
+                required
+              />
+              <label for="date-input" class="form__label"
+                >Date &#38; time &#42;</label
+              >
+              <input
+                id="date-input"
+                type="datetime-local"
+                class="form__input"
+                required
+              />
+              <label for="email-input" class="form__label"
+                >Your email &#42;</label
+              >
+              <input
+                id="email-input"
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+                required
+              />
+              <button class="form__button" type="submit">Book a table</button>
+              <label
+                for="agree-to-terms-input"
+                class="form__label form__label_type_checkbox"
+              >
+                <input
+                  id="agree-to-terms-input"
+                  type="checkbox"
+                  class="form__checkbox"
+                  checked="checked"
+                  required
+                /><span class="form__checkmark"></span>I agree with the terms of
+                use</label
+              >
+            </fieldset>
+          </form>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about" id="contacts"></section>
       </main>
