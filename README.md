@@ -13,4 +13,5 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- Fix cafe image so it doesn't overlap the title and description
+- Link this web page to the main library web page
