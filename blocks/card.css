@@ -1,0 +1,36 @@
+.card {
+  width: 540px;
+}
+
+.card__list {
+  margin: 0;
+  padding: 0;
+}
+
+.card__title {
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0 0 32px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 0 0 16px;
+  list-style-type: none;
+  display: flex;
+}
+
+.card__list-divider {
+  border-bottom: 1px solid #000;
+  flex-grow: 1;
+  height: 15px;
+}
