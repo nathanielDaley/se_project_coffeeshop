@@ -1,0 +1,71 @@
+.about {
+  box-sizing: border-box;
+  background-color: #0a2850;
+  color: #fff;
+  margin: 0;
+  padding: 100px 80px 173px 80px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 19px 0 0;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.about__circle {
+  background-color: #1878dc;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+  position: absolute;
+  z-index: 1;
+  top: -152px;
+  left: -129px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+}

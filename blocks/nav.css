@@ -25,4 +25,11 @@
   line-height: 20px;
   color: #000;
   text-decoration: none;
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  transition: opacity 0.2s linear;
 }
