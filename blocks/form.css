@@ -24,6 +24,7 @@
 .form__input {
   box-sizing: border-box;
   border-radius: 4px;
+  border: 1px solid #838383;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -89,14 +90,13 @@
   height: 20px;
   width: 20px;
   background-color: #1878dc;
-  border: 2px black solid;
   border-radius: 2px;
 }
 
 /* When the checkbox is checked, add the checkmark */
-.form__label_type_checkbox input:checked ~ .form__checkmark {
+.form__checkbox:checked ~ .form__checkmark {
   background-image: url("../images/check.svg");
-  background-size: 14px 14px;
+  background-size: 12px 12px;
   background-repeat: no-repeat;
   background-position: center;
 }
