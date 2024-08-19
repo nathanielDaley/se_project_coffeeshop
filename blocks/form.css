@@ -1,5 +1,5 @@
 .form {
-  max-width: 385px;
+  width: 385px;
 }
 
 .form__fieldset {
@@ -32,6 +32,7 @@
   line-height: 30px;
   margin: 0 0 32px;
   padding: 15px 20px;
+  max-width: 385px;
 }
 
 .form__input::placeholder {

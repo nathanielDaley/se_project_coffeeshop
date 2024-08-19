@@ -8,7 +8,7 @@
   justify-content: space-between;
   position: relative;
   overflow: hidden;
-  z-index: 0;
+  z-index: 1;
 }
 
 .about__title {
@@ -20,7 +20,6 @@
   line-height: 52px;
   padding: 0;
   margin: 0;
-  z-index: 2;
 }
 
 .about__content {
@@ -48,7 +47,7 @@
   width: 426px;
   height: 426px;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   top: -152px;
   left: -129px;
 }
